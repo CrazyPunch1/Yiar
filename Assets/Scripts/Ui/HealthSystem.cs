@@ -3,11 +3,12 @@ using UnityEngine.Events;
 
 public class HealthSystem : MonoBehaviour
 {
-    [SerializeField] private float maxHealth = 100f; // Max health for both player and enemies
+    public float maxHealth = 100f; // Max health for both player and enemies
+    public float currentHealth;
     [SerializeField] private float timeToSelfDestructOnDeath = 1;
     [SerializeField] private UnityEvent onBeenHit;
     [SerializeField] private UnityEvent onDeath;
-    private float currentHealth;
+
 
     void Start()
     {
