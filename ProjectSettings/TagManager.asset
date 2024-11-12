@@ -7,6 +7,10 @@ TagManager:
   - Bullet
   - Ground
   - BulletPlayer
+  - SecondCamera
+  - BulletSpawn
+  - Weapon
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -14,8 +18,8 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 
