@@ -12,6 +12,7 @@ public class FollowPlayerRotation : MonoBehaviour
     {
         // Guarda la rotación inicial del objeto
         initialRotation = transform.rotation;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void Update()
