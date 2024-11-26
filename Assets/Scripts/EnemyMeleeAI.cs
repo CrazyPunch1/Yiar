@@ -34,6 +34,7 @@ public class EnemyMeleeAI : MonoBehaviour
 
     private void Update()
     {
+        if (alreadyAttacked){ return ;};
         // Check for sight and attack range
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
@@ -84,7 +85,7 @@ public class EnemyMeleeAI : MonoBehaviour
         {
             StartCoroutine(PerformMeleeAttack()); // Start melee attack with timing
             alreadyAttacked = true;
-            Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            
         }
     }
 
@@ -98,6 +99,9 @@ public class EnemyMeleeAI : MonoBehaviour
 
         // Wait for the wind-up time before applying damage
         yield return new WaitForSeconds(meleeWindUpTime);
+        CheckPlayerDamageDealt();
+        yield return new WaitForSeconds(timeBetweenAttacks);
+        alreadyAttacked = false;
     }
 
     public void CheckPlayerDamageDealt(){
@@ -118,14 +122,9 @@ public class EnemyMeleeAI : MonoBehaviour
 
                 // Optional: Play a melee sound effect
                 AudioSource audioSource = GetComponent<AudioSource>();
-                audioSource?.Play();
+                if(audioSource != null) audioSource?.Play();
             }
         }
-    }
-
-    private void ResetAttack()
-    {
-        alreadyAttacked = false;
     }
 
     public void TakeDamage(int damage)
