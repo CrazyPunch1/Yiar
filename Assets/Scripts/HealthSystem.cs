@@ -29,6 +29,24 @@ public class HealthSystem: MonoBehaviour
         }
     }
 
+    public void DestroyEnemy()
+    {
+        OnDeath();
+        Destroy(gameObject);
+    }
+
+    private void OnDeath()
+    {
+        // Notify EnemyManager and destroy this enemy
+        EnemyManager manager = FindObjectOfType<EnemyManager>();
+        if (manager != null)
+        {
+            manager.EnemyDefeated(gameObject);
+        }
+
+        Destroy(gameObject);
+    }
+
     public void Heal(float amount)
     {
         currentHealth = Mathf.Clamp(currentHealth + amount, 0f, maxHealth);

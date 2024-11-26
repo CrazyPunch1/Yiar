@@ -26,8 +26,6 @@ public class EnemyMeleeAI : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
-    Coroutine co = null;
-
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
@@ -92,7 +90,7 @@ public class EnemyMeleeAI : MonoBehaviour
 
     private IEnumerator PerformMeleeAttack()
     {
-        Debug.Log("Enemy wind-up for melee attack...");
+        Debug.Log("Enemy is winding up for a melee attack...");
 
         // Trigger melee attack animation (if available)
         Animator animator = GetComponent<Animator>();
@@ -100,14 +98,10 @@ public class EnemyMeleeAI : MonoBehaviour
 
         // Wait for the wind-up time before applying damage
         yield return new WaitForSeconds(meleeWindUpTime);
-        CheckPlayerDamageDealt();
-        co = null;
-
     }
 
-    public void CheckPlayerDamageDealt()
-    {
-
+    public void CheckPlayerDamageDealt(){
+        
         // Check if player is still within melee range
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, meleeRange, whatIsPlayer);
         foreach (Collider hit in hitColliders)
@@ -124,10 +118,7 @@ public class EnemyMeleeAI : MonoBehaviour
 
                 // Optional: Play a melee sound effect
                 AudioSource audioSource = GetComponent<AudioSource>();
-                if (audioSource != null)
-                {
-                    audioSource?.Play();
-                }
+                audioSource?.Play();
             }
         }
     }

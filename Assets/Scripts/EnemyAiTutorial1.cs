@@ -30,8 +30,6 @@ public class EnemyAiTutorial1 : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
-    Coroutine co = null;
-
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
@@ -90,11 +88,11 @@ public class EnemyAiTutorial1 : MonoBehaviour
         {
             float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
-            if (distanceToPlayer <= meleeRange && co == null)
+            if (distanceToPlayer <= meleeRange)
             {
-                co = StartCoroutine(PerformMeleeAttack()); // Start melee attack with timing
+                StartCoroutine(PerformMeleeAttack()); // Start melee attack with timing
             }
-            else if(co == null)
+            else
             {
                 PerformRangedAttack();
             }
@@ -121,8 +119,6 @@ public class EnemyAiTutorial1 : MonoBehaviour
 
         // Wait for the wind-up time before applying damage
         yield return new WaitForSeconds(meleeWindUpTime);
-        CheckPlayerDamageDealt();
-        co = null;
 
     }
 
@@ -144,9 +140,7 @@ public class EnemyAiTutorial1 : MonoBehaviour
 
                 // Optional: Play a melee sound effect
                 AudioSource audioSource = GetComponent<AudioSource>();
-                if(audioSource != null) { 
-                    audioSource?.Play();
-                }
+                audioSource?.Play();
             }
         }
     }

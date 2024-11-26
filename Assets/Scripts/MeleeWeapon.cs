@@ -27,7 +27,7 @@ public class MeleeWeapon : MonoBehaviour
         // Apply damage to each enemy
         foreach (Collider enemy in hitEnemies)
         {
-            EnemyAiTutorial enemyHealth = enemy.GetComponent<EnemyAiTutorial>();
+            HealthSystem enemyHealth = enemy.GetComponent<HealthSystem>();
             if (enemyHealth != null)
             {
                 enemyHealth.TakeDamage(attackDamage);

@@ -35,6 +35,8 @@ public class EnemyStatic : MonoBehaviour
 
     private void AttackPlayer()
     {
+
+        if(projectile == null || player == null) return;
         // Ensure the enemy faces the player
         transform.LookAt(player);
 

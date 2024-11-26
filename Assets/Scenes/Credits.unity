@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 42dc3b9b0dd2040fc9ef0182fdea0e50, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.0026807657, g: 0.2872985, b: 0.3050503, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -322,6 +322,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2235541432889305407, guid: 1cdd1eb19546f1f4993eead9edf35080,
+        type: 3}
+      propertyPath: m_text
+      value: 'Profe Felipe Dumont
+
+        Chat GPT'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288166624444000067, guid: 1cdd1eb19546f1f4993eead9edf35080,
+        type: 3}
+      propertyPath: m_text
+      value: Modular First Person Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288166624444000067, guid: 1cdd1eb19546f1f4993eead9edf35080,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -383.32556
+      objectReference: {fileID: 0}
+    - target: {fileID: 2368988533926549720, guid: 1cdd1eb19546f1f4993eead9edf35080,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -587
+      objectReference: {fileID: 0}
     - target: {fileID: 3448216402264669419, guid: 1cdd1eb19546f1f4993eead9edf35080,
         type: 3}
       propertyPath: m_Pivot.x
@@ -421,6 +443,38 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3996277864638977333, guid: 1cdd1eb19546f1f4993eead9edf35080,
+        type: 3}
+      propertyPath: m_text
+      value: 'Crazy_Punch.
+
+        Kidd.Ketchup'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414081416429649438, guid: 1cdd1eb19546f1f4993eead9edf35080,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -456
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206292969483068218, guid: 1cdd1eb19546f1f4993eead9edf35080,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -519
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078337124723923265, guid: 1cdd1eb19546f1f4993eead9edf35080,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -284
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100629537801050520, guid: 1cdd1eb19546f1f4993eead9edf35080,
+        type: 3}
+      propertyPath: m_text
+      value: 'Skybox: Render Knight'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100629537801050520, guid: 1cdd1eb19546f1f4993eead9edf35080,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -214.15411
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
