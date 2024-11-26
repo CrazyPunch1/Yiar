@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbd5941605d250f4dbe6b023190c37ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 4215848603760388905, guid: 27dd22cf4cdd0c747ae9cf5c26795c5a,
+  projectilePrefab: {fileID: 4215848603760388905, guid: 7cf75dcc78acbe242ab6ce84fac25521,
     type: 3}
   firePoint: {fileID: 2838271372022238126}
   projectileSpeed: 20
@@ -2336,7 +2336,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7812e0877a56b6746a3493dbf615cfd3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b61fe70411d06840917536a0cf7a735, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2461,7 +2461,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c2961e733a9db6e449f76d102ac58e4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9cb6f39a9ea8dff4b9715313f5dd3d71, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2533,7 +2533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbd5941605d250f4dbe6b023190c37ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 4215848603760388905, guid: f30c2dbf100beba4c9a74728d843809f,
+  projectilePrefab: {fileID: 4215848603760388905, guid: b40e81f1f571f684f8c35b006cbf5f7f,
     type: 3}
   firePoint: {fileID: 2838271372022238126}
   projectileSpeed: 10
