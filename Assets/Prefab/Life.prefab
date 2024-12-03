@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d725e77be676d5447889fdde44d6c9cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 25
+  healAmount: 50
   pickupSound: {fileID: 0}
   pickupEffect: {fileID: 0}
   destroyDelay: 0.5

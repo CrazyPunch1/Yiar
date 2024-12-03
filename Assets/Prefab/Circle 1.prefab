@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   searchedTag: Player
-  dealDmg: 50
+  dealDmg: 10
   destroyOnHit: 1
   onHit:
     m_PersistentCalls:

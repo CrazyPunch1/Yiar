@@ -112,12 +112,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3d2cc9118784687468eb7086c84d42f5, type: 3}
-  m_Color: {r: 0.9811321, g: 0.31933072, b: 0.31933072, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 8b35038316406e74590bfc8fecb3fd38, type: 3}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 0.7175, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -147,7 +147,7 @@ MonoBehaviour:
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 5
   timeBetweenAttacks: 1
-  projectile: {fileID: 4215848603760388905, guid: 39d11007f53c15f4e92505155fa08769,
+  projectile: {fileID: 4215848603760388905, guid: 62e8792ad4659a04ea5600d2ebdc2277,
     type: 3}
   shootPosition: {fileID: 8912836599915417034}
   shootSpeed: 32
@@ -174,7 +174,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 3.3
-  m_BaseOffset: 1
+  m_BaseOffset: 16
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!54 &5403842076618713657
@@ -199,11 +199,11 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &7063049334754116941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,9 +257,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 30.675026
+  m_Height: 45.14025
   m_Direction: 1
-  m_Center: {x: 0, y: 5.882491, z: 0}
+  m_Center: {x: 0, y: -1.3502299, z: 0}
 --- !u!114 &602051215106353224
 MonoBehaviour:
   m_ObjectHideFlags: 0

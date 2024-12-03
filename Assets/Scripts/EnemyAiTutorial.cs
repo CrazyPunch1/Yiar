@@ -24,6 +24,7 @@ public class EnemyAiTutorial : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -69,6 +70,7 @@ public class EnemyAiTutorial : MonoBehaviour
 
         if (NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, walkPointRange, NavMesh.AllAreas))
         {
+            Debug.Log(hit.position + " " + hit);
             walkPoint = hit.position;
             walkPointSet = true;
         }

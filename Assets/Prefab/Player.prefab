@@ -345,7 +345,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316719610385216028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000009730988, y: 0.00021504366, z: 0.0016051199, w: 0.99999875}
+  m_LocalRotation: {x: 0.00000035028356, y: 0.00021815005, z: 0.001605698, w: 0.9999987}
   m_LocalPosition: {x: 1.7811599, y: 1.3, z: -21.573334}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -630,9 +630,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ammo Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: af72b320e6f7a5c498057c34fb9f1dce, type: 2}
-  m_sharedMaterial: {fileID: 2820291981774804227, guid: af72b320e6f7a5c498057c34fb9f1dce,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3314,8 +3313,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Reloading
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
