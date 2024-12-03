@@ -70,7 +70,7 @@ public class EnemyAiTutorial : MonoBehaviour
 
         if (NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, walkPointRange, NavMesh.AllAreas))
         {
-            Debug.Log(hit.position + " " + hit);
+            
             walkPoint = hit.position;
             walkPointSet = true;
         }
@@ -115,6 +115,20 @@ public class EnemyAiTutorial : MonoBehaviour
 
     private void DestroyEnemy()
     {
+        OnDeath();
         Destroy(gameObject);
+    }
+
+
+    private void OnDeath()
+    {
+        // Call this method when the enemy dies
+        EnemyManager manager = FindObjectOfType<EnemyManager>();
+        if (manager != null)
+        {
+            manager.EnemyDefeated(gameObject);
+        }
+
+        Destroy(gameObject); // Destroy enemy after death
     }
 }
