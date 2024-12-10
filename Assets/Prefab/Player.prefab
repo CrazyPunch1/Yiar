@@ -65,7 +65,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 4215848603760388905, guid: b40e81f1f571f684f8c35b006cbf5f7f,
     type: 3}
   firePoint: {fileID: 8325901924308743118}
-  projectileSpeed: 10
+  projectileSpeed: 100
   fireRate: 1
   bulletLife: 5
   ammoText: {fileID: 3637570869872146967}
@@ -630,8 +630,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ammo Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: da265b43f77eb154ba38462385af32b2, type: 2}
+  m_sharedMaterial: {fileID: 8969114690639031067, guid: da265b43f77eb154ba38462385af32b2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3313,8 +3314,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Reloading
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: da265b43f77eb154ba38462385af32b2, type: 2}
+  m_sharedMaterial: {fileID: 8969114690639031067, guid: da265b43f77eb154ba38462385af32b2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

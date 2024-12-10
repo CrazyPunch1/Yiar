@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7252156801193834439}
   - component: {fileID: 6632587065233256861}
   - component: {fileID: 4558634300567184606}
+  - component: {fileID: 8594804579573109731}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -27,9 +28,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6736922199997946976}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0018621911, y: -0.0017446653, z: -0.0027413429, w: 0.999993}
+  m_LocalRotation: {x: -0.00186271, y: -0.0017416956, z: -0.0027433115, w: 0.999993}
   m_LocalPosition: {x: 4.301, y: -1.767, z: -10.094}
-  m_LocalScale: {x: 2.0067265, y: 2.0771, z: 0.1698}
+  m_LocalScale: {x: 4.18, y: 3.68, z: 0.1698}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -119,5 +120,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aae088c462b88144930ce9b2f83fb64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level3
+  sceneToLoad: Credits
   door: {fileID: 6736922199997946976}
+--- !u!114 &8594804579573109731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6736922199997946976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33bf2bc250953240aa05200719b9e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  rotationOffset: 0

@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro; // Required for TextMeshPro
 
 public class MeleeWeapon : MonoBehaviour
 {
@@ -7,6 +8,10 @@ public class MeleeWeapon : MonoBehaviour
     public LayerMask enemyLayers;     // Layers for enemy detection
     public Transform attackPoint;     // Point where we check for enemies
 
+    [Header("UI Elements")]
+    [SerializeField] TextMeshProUGUI ammoText;
+    [SerializeField] TextMeshProUGUI reloadText;
+    
     // Update is called once per frame
     void Update()
     {
@@ -14,6 +19,10 @@ public class MeleeWeapon : MonoBehaviour
         {
             Attack();
         }
+
+         // Initialize UI
+        UpdateAmmoUI();
+        
     }
 
     void Attack()
@@ -43,5 +52,21 @@ public class MeleeWeapon : MonoBehaviour
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+    void UpdateAmmoUI()
+    {
+        if (ammoText != null)
+        {
+            ammoText.text = "";
+        }
+    }
+
+    void UpdateReloadUI(bool isReloading)
+    {
+        if (reloadText != null)
+        {
+            reloadText.gameObject.SetActive(isReloading);
+        }
     }
 }
