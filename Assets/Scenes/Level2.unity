@@ -137,9 +137,9 @@ GameObject:
   - component: {fileID: 21817919}
   - component: {fileID: 21817918}
   - component: {fileID: 21817917}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1819,6 +1819,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Life (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7997880296044787962, guid: dcbbee362a3778441a9753a7ddf2deaa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1886,6 +1891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Life
+      objectReference: {fileID: 0}
+    - target: {fileID: 7997880296044787962, guid: dcbbee362a3778441a9753a7ddf2deaa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2069,6 +2079,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5161322663601442355, guid: 6ec2b35806aad37438b28fd3649a701b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6901334920199465628, guid: 6ec2b35806aad37438b28fd3649a701b,
         type: 3}
@@ -3470,6 +3485,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pirate Melee (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6614423163280774748, guid: 1430ae6b0280caf4aa11d59143a65c76,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3828,6 +3848,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pirate (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8215295637139646269, guid: 1b458d8b0323ed14898e77fd873cd41b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8835607398168102746, guid: 1b458d8b0323ed14898e77fd873cd41b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3945,6 +3970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Life (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7997880296044787962, guid: dcbbee362a3778441a9753a7ddf2deaa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4562,6 +4592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pirate (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215295637139646269, guid: 1b458d8b0323ed14898e77fd873cd41b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8835607398168102746, guid: 1b458d8b0323ed14898e77fd873cd41b,
         type: 3}
@@ -5646,6 +5681,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pirate Melee (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6614423163280774748, guid: 1430ae6b0280caf4aa11d59143a65c76,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6921,6 +6961,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pirate
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215295637139646269, guid: 1b458d8b0323ed14898e77fd873cd41b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8835607398168102746, guid: 1b458d8b0323ed14898e77fd873cd41b,
         type: 3}
@@ -8584,6 +8629,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crab
       objectReference: {fileID: 0}
+    - target: {fileID: 5461262038042799904, guid: d724283bbf17ecc4489be6b3a225d5b7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8735,6 +8785,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pirate Melee (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6614423163280774748, guid: 1430ae6b0280caf4aa11d59143a65c76,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9106,6 +9161,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AmmoBox 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1959624311408363945, guid: ea689270867c8b243a2e6a89ecf7790b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7048031361049749941, guid: ea689270867c8b243a2e6a89ecf7790b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9291,6 +9351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Life (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7997880296044787962, guid: dcbbee362a3778441a9753a7ddf2deaa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10233,6 +10298,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pirate (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8215295637139646269, guid: 1b458d8b0323ed14898e77fd873cd41b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8835607398168102746, guid: 1b458d8b0323ed14898e77fd873cd41b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11138,6 +11208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AmmoBox 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1959624311408363945, guid: ea689270867c8b243a2e6a89ecf7790b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7048031361049749941, guid: ea689270867c8b243a2e6a89ecf7790b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11366,6 +11441,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WeaponManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2616927857890235278, guid: 9f2fa2cd1300bf44e9688730bf15ca42,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3038848818964385725, guid: 9f2fa2cd1300bf44e9688730bf15ca42,
         type: 3}
       propertyPath: m_Pivot.x
@@ -11483,6 +11563,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AmmoBox 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959624311408363945, guid: ea689270867c8b243a2e6a89ecf7790b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7048031361049749941, guid: ea689270867c8b243a2e6a89ecf7790b,
         type: 3}
@@ -11679,6 +11764,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pirate (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215295637139646269, guid: 1b458d8b0323ed14898e77fd873cd41b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8835607398168102746, guid: 1b458d8b0323ed14898e77fd873cd41b,
         type: 3}
@@ -12212,8 +12302,8 @@ SceneRoots:
   - {fileID: 4153190597231655327}
   - {fileID: 1083963062}
   - {fileID: 465879510}
-  - {fileID: 1458489860}
   - {fileID: 657316106}
+  - {fileID: 1458489860}
   - {fileID: 1343300767}
   - {fileID: 1829750471}
   - {fileID: 1059133855}

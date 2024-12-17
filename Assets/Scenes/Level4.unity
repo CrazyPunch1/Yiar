@@ -897,6 +897,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 981754413}
+    - target: {fileID: 1654356021007874243, guid: 4460c119a37f4724faac535d83b96bf8,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2149040743579300908, guid: 4460c119a37f4724faac535d83b96bf8,
         type: 3}
       propertyPath: health
